@@ -27,3 +27,7 @@ div.headerMain {
 .headerSearch .searchQuery {
     color: black;
 }
+
+#contentSidebar {
+	width: 220px;
+}

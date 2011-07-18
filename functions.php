@@ -6,7 +6,7 @@
             $children = wp_list_pages('title_li=&child_of='.$GLOBALS['post']->ID.'&echo=0&depth=1');
             if ($children) {
                 $content = sprintf('
-                    <div class="sidebars">
+                    <div id="contentSidebar" class="sidebars">
                             <div class="t"><div></div></div>
                             <div class="i"><div class="i2"><div class="c">
 
