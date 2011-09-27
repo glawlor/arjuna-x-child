@@ -31,6 +31,7 @@ div.headerMain {
 #contentSidebar {
 	width: 220px;
 	margin-left: 15px;
+	float: right;
 }
 
 #contentSidebar li {
