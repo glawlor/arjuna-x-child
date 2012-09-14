@@ -16,6 +16,7 @@ body {
 /* No need to load the default bg image */
 div.headerMain {
     background: none;
+    height: 60px;
 }
 
 /* Remove extraneous horiz rule from post footer */
