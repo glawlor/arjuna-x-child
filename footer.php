@@ -10,7 +10,7 @@ else $tmp = 'footer_lightBlue';
 		<div class="footerTop"></div>
 		<div class="footerContainer">
 			<a href="http://www.wordpress.org" class="icon1"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php if($arjunaOptions['footerStyle']=='style1'): ?>wordpressIcon.png<?php else: ?>footer/WordPressIcon.png<?php endif; ?>" width="20" height="20" alt="Powered by WordPress" /></a>
-			<a href="http://www.srssolutions.com/en/services/design/website_design/wordpress_design" class="icon2"><img src="<?php echo get_template_directory_uri(); ?>/images/footer/SRSIcon.png" width="31" height="18" alt="Web Design by SRS Solutions" /></a>
+			<a href="http://www.srswebsitedesign.com/resources/arjuna-x" class="icon2"><img src="<?php echo get_template_directory_uri(); ?>/images/footer/SRSIcon.png" width="31" height="18" alt="Web Design by SRS Solutions" /></a>
 			<span class="copyright">&copy; <?php print date('Y'); ?> <?php if(!empty($arjunaOptions['copyrightOwner'])) print $arjunaOptions['copyrightOwner']; else bloginfo('name'); ?></span>
 		</div>
 	</div>
