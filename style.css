@@ -26,7 +26,8 @@ div.headerMain {
 
 /* Change the font colour in the search box */
 .headerSearch .searchQuery {
-    color: black;
+    color: white;
+    text-shadow: none;
 }
 
 #contentSidebar {
@@ -38,4 +39,8 @@ div.headerMain {
 #contentSidebar li {
 	list-style: none;
 	margin: 0px;
+}
+
+input {
+	padding: 1px 6px;
 }
